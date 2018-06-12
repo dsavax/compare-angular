@@ -1,15 +1,16 @@
 @import '../mq'
 
-.nav
+.navbar
   background-color: #383838
   a:hover
     color: gray
 
-.nav-left a 
+.navbar-brand a
   color: #fff
   font-weight: bold
 
-a.r-item
+.navbar-end a
+  font-weight: normal
   color:#C1C1C1
   padding: 0.5rem 1.75rem
   +mobile
@@ -17,9 +18,8 @@ a.r-item
     &:hover
       background-color: #F1F1F1
 
-.nav-toggle span
+.navbar-burger span
   background-color: #C1C1C1
-
 
 footer
     background-color: $primary
